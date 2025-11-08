@@ -1,0 +1,12 @@
+
+CXX=g++
+CXXFLAGS=-std=gnu++17 -O2 -Wall -Wextra
+TARGET=filex
+
+all: $(TARGET)
+
+$(TARGET): main.cpp
+	$(CXX) $(CXXFLAGS) -o $(TARGET) main.cpp
+
+clean:
+	rm -f $(TARGET)
