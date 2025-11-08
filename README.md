@@ -70,7 +70,12 @@ write test.txt
 END
 head test.txt
 mkdir testDir
-cpr test.txt testDir/copy.txt
+cpr test.txt testDir/copy.txt!
+
 tree .
 du .
 exit
+![CAPSTONE](https://github.com/user-attachments/assets/58bddba8-29a8-4e9c-be12-6000946e982a)
+
+
+
